@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		A6133F902BB538CF0053BCA1 /* MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6133F8F2BB538CF0053BCA1 /* MapAppApp.swift */; };
 		A6133F922BB538CF0053BCA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6133F912BB538CF0053BCA1 /* ContentView.swift */; };
-		A6133F942BB538D20053BCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6133F932BB538D20053BCA1 /* Assets.xcassets */; };
 		A6133F972BB538D20053BCA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6133F962BB538D20053BCA1 /* Preview Assets.xcassets */; };
 		A6133FA12BB538D20053BCA1 /* MapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6133FA02BB538D20053BCA1 /* MapAppTests.swift */; };
 		A6133FAB2BB538D20053BCA1 /* MapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6133FAA2BB538D20053BCA1 /* MapAppUITests.swift */; };
 		A6133FAD2BB538D20053BCA1 /* MapAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6133FAC2BB538D20053BCA1 /* MapAppUITestsLaunchTests.swift */; };
+		A6D565D22BB53BF1007EDC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D565D12BB53BF1007EDC36 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +37,13 @@
 		A6133F8C2BB538CF0053BCA1 /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6133F8F2BB538CF0053BCA1 /* MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppApp.swift; sourceTree = "<group>"; };
 		A6133F912BB538CF0053BCA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A6133F932BB538D20053BCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6133F962BB538D20053BCA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A6133F9C2BB538D20053BCA1 /* MapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6133FA02BB538D20053BCA1 /* MapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppTests.swift; sourceTree = "<group>"; };
 		A6133FA62BB538D20053BCA1 /* MapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6133FAA2BB538D20053BCA1 /* MapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppUITests.swift; sourceTree = "<group>"; };
 		A6133FAC2BB538D20053BCA1 /* MapAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6D565D12BB53BF1007EDC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			children = (
 				A6133F8F2BB538CF0053BCA1 /* MapAppApp.swift */,
 				A6133F912BB538CF0053BCA1 /* ContentView.swift */,
-				A6133F932BB538D20053BCA1 /* Assets.xcassets */,
+				A6D565D12BB53BF1007EDC36 /* Assets.xcassets */,
 				A6133F952BB538D20053BCA1 /* Preview Content */,
 			);
 			path = MapApp;
@@ -231,8 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D565D22BB53BF1007EDC36 /* Assets.xcassets in Resources */,
 				A6133F972BB538D20053BCA1 /* Preview Assets.xcassets in Resources */,
-				A6133F942BB538D20053BCA1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
