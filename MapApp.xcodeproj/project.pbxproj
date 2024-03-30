@@ -20,6 +20,7 @@
 		A6D565DE2BB692FA007EDC36 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D565DD2BB692FA007EDC36 /* LocationsViewModel.swift */; };
 		A6D565E02BB7805F007EDC36 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D565DF2BB7805F007EDC36 /* LocationsListView.swift */; };
 		A6D565E22BB7A0C4007EDC36 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D565E12BB7A0C4007EDC36 /* LocationPreviewView.swift */; };
+		A6D565E42BB7B440007EDC36 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D565E32BB7B440007EDC36 /* LocationMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		A6D565DD2BB692FA007EDC36 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		A6D565DF2BB7805F007EDC36 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		A6D565E12BB7A0C4007EDC36 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		A6D565E32BB7B440007EDC36 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				A6D565DB2BB69027007EDC36 /* LocationsView.swift */,
 				A6D565DF2BB7805F007EDC36 /* LocationsListView.swift */,
 				A6D565E12BB7A0C4007EDC36 /* LocationPreviewView.swift */,
+				A6D565E32BB7B440007EDC36 /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6D565DA2BB53F76007EDC36 /* LocationsDataService.swift in Sources */,
+				A6D565E42BB7B440007EDC36 /* LocationMapAnnotationView.swift in Sources */,
 				A6D565E02BB7805F007EDC36 /* LocationsListView.swift in Sources */,
 				A6D565E22BB7A0C4007EDC36 /* LocationPreviewView.swift in Sources */,
 				A6D565DE2BB692FA007EDC36 /* LocationsViewModel.swift in Sources */,
